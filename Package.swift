@@ -1,6 +1,5 @@
 // swift-tools-version:5.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(name: "RxOptional",
@@ -16,10 +15,10 @@ let package = Package(name: "RxOptional",
                       dependencies: [
                         // Dependencies declare other packages that this package depends on.
                         // Dependencies declare other packages that this package depends on.
-                        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.0.0")),
+                        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.5.0")),
                         // Development
                         .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "3.0.0")), // dev
-                        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "9.0.0")) // dev
+                        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "10.0.0")) // dev
                       ],
 
                       targets: [
